@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/80b8ab0f9d.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/mobile.css">
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+  <title>CENTROID | A Mathematics Institute</title>
+</head>
+<body>
+   <!-- Navbar -->
+  <nav id="navbar">
+       <img src="./img/logossr.jpeg" alt="logossr" class="logo">
+      <h1>CENTROID</h1>
+       <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li>COURSES <i class="fas fa-angle-down"></i>
+          <ul>
+            <li><a href="course.html">Boards</a></li>
+            <li><a href="course.html">Jee Mains</a></li>
+            <li><a href="course.html">Jee Advanced</a></li>
+            <li><a href="course.html">KVPY</a></li>
+          </ul>
+        </li>
+        <li>RESULTS <i class="fas fa-angle-down"></i>
+          <ul>
+            <li><a href="results.html">2019-20</a></li>
+            <li><a href="results.html">2018-19</a></li>
+            <li><a href="results.html">2017-18</a></li>
+            <li><a href="results.html">2016-17</a></li>
+          </ul>
+        </li>
+         <li><a class="online-addmission current" href="online.html">APPLY ONLINE</a></li>
+      </ul>
+    </nav>
+
+    <section id="online-form">
+      <div class="container"></div>
+      <h1 class="l-heading"><span class="text-primary">Online </span>Form</h1>
+      <p>Please fill the form below to take addmission</p>
+      <form action="process.php">
+        <div class="form-group-online">
+          <label for="name">Student's Name</label>
+          <input type="text" name="name" id="name">
+        </div>
+        <div class="form-group-online">
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email">
+        </div>
+        <div class="form-group-online">
+          <label for="phone">Phone Number</label>
+          <input type="number" name="phone" id="phone">
+        </div>
+        <div class="form-group-online">
+          <label for="class">Class</label>
+          <input type="number" name="class" id="class">
+        </div>
+        <div class="form-group-online">
+          <label for="course">Course opting for</label>
+          <input type="text" name="course" id="course">
+        </div>
+        <div class="form-group-online">
+          <label for="name">Message</label>
+          <textarea type="message" name="message" id="message"></textarea>
+        </div>
+        <button class="btn" type="submit">Submit</button>
+      </form>
+    </section>
+
+     <!-- Footer -->
+  <footer id="main-footer" class="bg-dark text-center py-1">
+    <div class="container">
+    <p>Copyright &copy; 2020, CENTROID, All Rights Reserved</p>
+    </div>
+  </footer>
